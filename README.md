@@ -13,7 +13,7 @@ You know running is very quick!
 
 `npm install`
 
-## cmmd line Execution
+## Command line execution
 
 `npm test`  # for running all tests
 
