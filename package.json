@@ -1,0 +1,14 @@
+{
+  "name": "anagram-checker",
+  "version": "1.0.0",
+  "description": "anagram checker for 2 strings",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  },
+  "author": "cvenkatreddy",
+  "license": "ISC"
+}
