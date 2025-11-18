@@ -17,6 +17,8 @@ You know running is very quick!
 
 `npm test`  # for running all tests
 
+Alternatively, you can run in docker without installing node locally
+
 ## Docker Execution
 Download and install Docker
 
