@@ -17,4 +17,17 @@ You know running is very quick!
 
 `npm test`  # for running all tests
 
+## Docker Execution
+Download and install Docker
+
+For Mac: https://www.docker.com/products/docker-desktop
+
+For Windows: https://docs.docker.com/desktop/windows/
+
+Build the Docker image
+`docker build -t anagram-tests .`
+
+Run the test suite in Docker
+`docker run --rm anagram-tests`
+
 
