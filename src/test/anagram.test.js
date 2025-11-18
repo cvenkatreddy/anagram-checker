@@ -10,7 +10,7 @@ test("not anagram", () => {
 });
 
 test("case sensitive by default", () => {
-  expect(isAnagram("aA", "Aa")).toBe(false);
+  expect(isAnagram("aa", "Aa")).toBe(false);
 });
 
 test("ignoreCase", () => {
