@@ -1,4 +1,4 @@
-# taf-favqs-api
+# anagram-checker
 
 A sample anagram checker
 
