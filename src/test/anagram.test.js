@@ -22,5 +22,5 @@ test("ignoreWhitespace", () => {
 });
 
 test("Check custom normalizer", () => {
-  expect(isAnagram("résumé", "sérumé", { normalizeUnicode: true });
+  expect(isAnagram("résumé", "sérumé", { normalizeUnicode: true })).toBe(true);
 });
