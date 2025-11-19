@@ -62,5 +62,3 @@ function isAnagram(a, b, options = {}) {
 
 module.exports = { isAnagram };
 
-export default isAnagram;
-
