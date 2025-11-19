@@ -20,3 +20,7 @@ test("ignoreCase", () => {
 test("ignoreWhitespace", () => {
   expect(isAnagram("a a", "aa", { ignoreWhitespace: true })).toBe(true);
 });
+
+test("Check custom normalizer", () => {
+  expect(isAnagram("résumé", "sérumé", { normalizeUnicode: true });
+});
