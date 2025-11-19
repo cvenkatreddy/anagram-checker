@@ -1,4 +1,4 @@
-export function isAnagram(a, b, options = {}) {
+function isAnagram(a, b, options = {}) {
   if (typeof a !== 'string' || typeof b !== 'string') {
     throw new TypeError('isAnagram expects string arguments');
   }
@@ -59,6 +59,8 @@ export function isAnagram(a, b, options = {}) {
 
   return counts.size === 0;
 }
+
+module.exports = { isAnagram };
 
 export default isAnagram;
 
