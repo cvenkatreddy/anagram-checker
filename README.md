@@ -9,7 +9,7 @@ A sample anagram checker
 
 ## Quickstart
 
-You know running is very quick!
+You know setting up is very quick!
 
 `npm install`
 
